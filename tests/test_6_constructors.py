@@ -28,7 +28,6 @@ def test_constructor_sous():
     driver = webdriver.Chrome()
 
     # вход на сайт
-
     driver.get("https://stellarburgers.nomoreparties.site/")
 
     # выбрать раздел Соусы

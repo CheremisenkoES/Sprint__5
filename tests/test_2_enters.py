@@ -6,7 +6,6 @@ def test_enter_button(email_pretty,password_pretty):
     from selenium import webdriver
 
     driver = webdriver.Chrome()
-
     # Открыть сайт и войти
     driver.get("https://stellarburgers.nomoreparties.site/")
     driver.find_element(By.CSS_SELECTOR, ".button_button__33qZ0").click()

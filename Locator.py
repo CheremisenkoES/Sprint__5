@@ -1,4 +1,4 @@
-# описание локаторов
+# описание локаторов.
 (By.NAME, "name") # Поле "имя пользователя"
 (By.CSS_SELECTOR, ".Auth_fieldset__1QzWN:nth-child(2) .input") # Поле "емайл"
 (By.NAME, "Пароль") # Поле "пароль"

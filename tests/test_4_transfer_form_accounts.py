@@ -6,7 +6,6 @@ def test_transfer_from_construct(email_pretty,password_pretty):
     from selenium.webdriver.common.by import By
 
     driver = webdriver.Chrome()
-
     # Вход на сайт
     driver.get("https://stellarburgers.nomoreparties.site/login")
 
