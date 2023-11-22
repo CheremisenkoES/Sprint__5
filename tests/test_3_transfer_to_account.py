@@ -6,7 +6,6 @@ def test_transfer_to_account():
     from selenium import webdriver
 
     driver = webdriver.Chrome()
-
     # Переход с главной в ЛК
     driver.get("https://stellarburgers.nomoreparties.site/")
     driver.find_element(By.LINK_TEXT, "Личный Кабинет").click()

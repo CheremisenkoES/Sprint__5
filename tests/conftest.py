@@ -1,5 +1,4 @@
 import pytest
-
 @pytest.fixture(scope='session')
 def email():
     yield 'testwww@test.ru'

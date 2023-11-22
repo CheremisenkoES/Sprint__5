@@ -25,7 +25,7 @@ def test_logout_of_account(email,password):
 
     driver.find_element(By.CSS_SELECTOR, ".Account_button__14Yp3")
 
-    # Проверка что мы на нужной странице после выхода
+    # Проверка, что мы на нужной странице после выхода
     assert '/stellarburgers.nomoreparties.site' in driver.current_url
 
     driver.quit()

@@ -5,7 +5,6 @@ def test_registration(user,password):
     from selenium.webdriver.common.by import By
 
     # Проверка успешной регистрации
-
     driver = webdriver.Chrome()
 
     # вход на сайт
